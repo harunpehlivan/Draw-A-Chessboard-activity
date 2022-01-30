@@ -18,9 +18,9 @@ pen.speed('slow')
 def draw_white_square(): 
   pen.fillcolor("white")
   pen.begin_fill()
-  for i in range(4): 
-    pen.forward(30) 
-    pen.left(90) 
+  for _ in range(4):
+    pen.forward(30)
+    pen.left(90)
   pen.forward(30)
   pen.end_fill()
 
@@ -28,9 +28,9 @@ def draw_white_square():
 def draw_black_square():
   pen.fillcolor("black")
   pen.begin_fill()
-  for i in range(4): 
-    pen.forward(30) 
-    pen.left(90) 
+  for _ in range(4):
+    pen.forward(30)
+    pen.left(90)
   pen.forward(30)
   pen.end_fill()
 
